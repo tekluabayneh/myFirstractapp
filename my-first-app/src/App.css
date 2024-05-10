@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+.heading {
+  /*  added by teklu */
+  color: red;
+  font-size: 3rem;
+  background: #000;
+  border-radius: 2rem;
+}
+ul {
+  /* added by teklu */
+
+  display: flex;
+  gap: 2rem;
+  padding-inline: 2rem;
+  list-style: none;
+  color: white;
+}
+.wraper {
+  /* added by teklu */
+  background: #000;
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.logo {
+  /* added by teklu */
+  font-size: 3rem;
+}
+.getheading {
+  /* added by teklu */
+  border: 2px solid red;
+  font-size: 2rem;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.header {
+  /* added by teklu */
+  width: 100%;
+  background: rgb(238, 215, 10);
+  height: 3rem;
+  text-align: left;
+  padding-left: 2rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+  box-shadow: 0 0 10px rgba(2, 2, 2, 0.3);
+}
+.para {
+  /* added by teklu */
+  width: 20%;
+  background: white;
+  box-shadow: 0 0 10px rgba(2, 2, 2, 0.3);
+  padding: 0.1rem;
+  margin-left: 2rem;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.footer {
+  /* added by teklu */
+  padding-top: 27em;
+  opacity: 0.6;
+}
+.card-container {
+  width: 20rem;
+  height: 12rem;
+  overflow: hidden;
+
+  margin-left: 2rem;
+  margin-top: 1rem;
+  /*  display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+
+  border-radius: 1rem;
+  background: rgb(77, 237, 243);
+  position: relative;
+}
+.top-bg {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: rgb(12, 198, 204);
+  /*   box-shadow: 0 0 10px rgba(2, 2, 2, 0.3);
+ */
+  border-radius: 0.2rem;
+}
+.bottom-bg {
+  /* added by teklu */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  background: rgb(77, 237, 243);
+  border-radius: 3rem;
+  position: absolute;
+  right: 5rem;
+  opacity: 0.6;
+}
+
+.img {
+  /* added by teklu */
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 5px solid rgb(255, 255, 255);
+  text-align: left;
+  margin-top: 0.2rem;
+}
+.fancy-wrapper {
+  background: #4776ac;
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.head {
+  font-size: 2rem;
+  color: aqua;
+}
+.para_fancy {
+  font-size: 1rem;
+  color: black;
+}
+.container {
+  width: 30%;
+  height: 35%;
+  background: #fff;
+  box-shadow: 0 0 2px black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
