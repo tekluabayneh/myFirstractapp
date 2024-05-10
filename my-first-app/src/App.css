@@ -93,7 +93,6 @@ ul {
   width: 100%;
   display: flex;
   flex-direction: column;
-
   background: rgb(77, 237, 243);
   border-radius: 3rem;
   position: absolute;
@@ -109,6 +108,218 @@ ul {
   border: 5px solid rgb(255, 255, 255);
   text-align: left;
   margin-top: 0.2rem;
+}
+
+#teklu {
+  width: 100%;
+  height: 100dvh;
+  background: rgba(3, 145, 114, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  input {
+    padding: 0.5rem;
+    line-height: 1rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    border: 2px solid white;
+    background: transparent;
+    outline: wheat;
+    opacity: 0.7;
+  }
+  ::placeholder {
+    color: white;
+  }
+
+  button {
+    padding: 0.5rem;
+    width: 12rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    border: 2px solid white;
+    background: white;
+
+    color: rgba(3, 145, 114, 0.8);
+  }
+  button:hover {
+    background: rgba(3, 145, 114, 0.8);
+    color: white;
+    transition: 0.5s;
+    border: blueviolet solid 2px;
+  }
+  .gretting {
+    color: white;
+  }
+}
+.TO_boass_container {
+  display: flex;
+  background: #e4ff99;
+  width: 100%;
+  height: 100dvh;
+  justify-content: center;
+  align-items: center;
+}
+.To_Do-app-container {
+  width: 30%;
+  height: 80dvh;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(2, 2, 2, 0.3);
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  /*   justify-content: center;
+ */
+  align-items: center;
+
+  overflow: hidden;
+
+  background: #ffffff;
+  row-gap: 4rem;
+  position: relative;
+  .form {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+  }
+  .heding {
+    width: 8rem;
+    background: rgb(255, 192, 3);
+    transform: rotate(6deg);
+    border-radius: 0.3rem;
+    border-bottom-right-radius: 1rem;
+
+    font-size: 0.5rem;
+  }
+  input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: rgb(255, 192, 3);
+    border-bottom-style: dashed;
+  }
+  button {
+    width: 4rem;
+    border: 1px solid black;
+  }
+
+  .Li-item li {
+    color: black;
+    list-style: disc;
+    position: absolute;
+    left: 1.5rem;
+    display: block;
+  }
+  /* .Li-item ul li {
+    display: flex;
+    flex-direction: column;
+  } */
+}
+
+#plus_and-minuse-container {
+  width: 100%;
+  height: 100dvh;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #2596be;
+
+  #plus_and-minuse-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+  }
+  .btn_plusor_minuse {
+    width: 4rem;
+    height: 4rem;
+    font-size: 3rem;
+    border-radius: 0.4rem;
+  }
+  .btn_plusor_minuse:active {
+    background: #2596be;
+    border: none;
+  }
+}
+
+.Randomtime_container {
+  background: #786fa6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100dvh;
+  h1 {
+    color: white;
+    font-size: 3rem;
+  }
+  button {
+    background: #aa8902;
+    color: #1c2a2f;
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+}
+.Table {
+  display: flex;
+  justify-content: center;
+}
+
+#Method_form {
+  width: 100%;
+  height: 100dvh;
+  background: rgba(3, 145, 114, 0.8);
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  input {
+    padding: 0.5rem;
+
+    text-align: center;
+    border-radius: 0.3rem;
+    border: 2px solid white;
+    background: transparent;
+    outline: wheat;
+  }
+  ::placeholder {
+    color: white;
+  }
+
+  button {
+    padding: 0.5rem;
+    width: 12rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    border: 2px solid white;
+    background: white;
+
+    color: rgba(3, 145, 114, 0.8);
+  }
+  button:hover {
+    background: rgba(3, 145, 114, 0.8);
+    color: white;
+    transition: 0.5s;
+    border: blueviolet solid 2px;
+  }
+  .head_and_apar_conatoner {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
 }
 .fancy-wrapper {
   background: #4776ac;

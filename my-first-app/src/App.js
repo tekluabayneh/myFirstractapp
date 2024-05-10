@@ -17,6 +17,12 @@ import Fancycard from "./component/fancy_imo_card";
 import Truker from "./component/imogy_array";
 import Kipper_component from "./component/kipper-app_comp";
 import props from "./component/props";
+import User from "./component/user_input";
+import Plusbtn from "./component/Plus_btn_comp";
+import Randomtime from "./component/rabdomTime";
+import Table from "./component/Table";
+import Method_and_State from "./component/State_and_Method";
+import To_doList from "./component/DO-LIST-APP";
 /* function name(concat) {
   return (
     <Card
@@ -52,10 +58,10 @@ import props from "./component/props";
   return Truker.paragraph.substring(0, 100);
 });
  */
-function forkiper(kip) {
+/* function forkiper(kip) {
   return <Kipper title={kip.title} paragraph={kip.paragraph} />;
-}
-console.log(Kipper_component);
+} */
+
 function App() {
   return (
     <div className="App">
@@ -116,14 +122,14 @@ function App() {
  ============================================================================================*/}
       {/*       {Truker.map(Fancy)}
        */}
-      {Truker.map((FancFcon) => (
+      {/*  {Truker.map((FancFcon) => (
         <Fancycard
           key={FancFcon.id}
           img={FancFcon.img}
           heading={FancFcon.heading}
           paragraph={FancFcon.paragraph}
         />
-      ))}
+      ))} */}
       {/* ===========================================================================================
                                arry_container component
       =============================================================================================*/}
@@ -132,11 +138,44 @@ function App() {
 }*/}
       {/*       {Kipper_component.map(forkiper)}
        */}
-      {Kipper_component.map((FancFcon) => (
+      {/*    {Kipper_component.map((FancFcon) => (
         <Kipper title={FancFcon.title} paragraph={FancFcon.paragraph} />
-      ))}
+      ))} */}
+      {/* ========================================================================================
+                                      user input
+      ===============================================================================================*/}
+      {/*       {<User />}
+       */}{" "}
+      {/* ==============================================================================================================
+                                         Plus and minuse btn
+      ===================================================================================================================*/}
+      {/* <Plusbtn /> */}
+      {/* ===========================================================================================================
+                       the random time
+      ====================================================================================================================*/}
+      {/*  <Randomtime /> */}
+      {/* ======================================================================================
+                                  table
+      ===========================================================================================*/}
+      {/*       <Table />
+       */}{" "}
+      {/* =========================================================================================
+                                  Method_and_State
+       ============================================================================================*/}
+      {/*       <Method_and_State />
+       */}
+      <To_doList />
     </div>
   );
 }
 
 export default App;
+
+/* 
+function App() {
+  return <div className="App">
+
+
+  </div>;
+}
+ */
